@@ -40,6 +40,14 @@ async def imagem(ctx):
     e.set_image(url=pegar_el_aleatorio(CRAZYFROG_IMAGES))
     await ctx.channel.send(pegar_el_aleatorio(CRAZYFROG_FRASES), embed=e)
 
+
+@bot.command(pass_context=True)
+async def estavivo(ctx):
+    """Pra ver se o crazy frog ta vivo"""
+
+    await ctx.channel.send("nao")
+
+
 # @bot.command(pass_context=True)
 
 
