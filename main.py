@@ -1,4 +1,5 @@
 import os
+import nacl
 import discord
 import random
 
